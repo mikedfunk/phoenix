@@ -4,6 +4,11 @@ Used by toyota, grindr, hallmark, and others
 Handles a ton of simultaneous connections per server (200,000 simultaneous)
 Written by a core contributor to ruby
 
+* rebar is the dependency management system
+* ecto is the orm
+* cowboy is the erlang server
+* plug is the router
+
 ```sh
 mix phx.new rock_paper_scissors --no-brunch --no-ecto
 cd rock_paper_scissors
